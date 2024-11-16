@@ -1,5 +1,7 @@
 Nama : ALHUSNA HANIFAH
+
 NPM : 2208107010060
+
 Review CNN
 
 # Convolutional Neural Network (CNN)
@@ -14,8 +16,9 @@ Convolutional Neural Network (CNN) adalah algoritma deep learning yang dirancang
 3. Flattening
 4. Full Connection
 
+## Penjelasan
 1. Tahap Convolution
-  Pada tahap ini terjadi proses perkalian pixel pada gambar dengan **featur detector**. Feature detector atau yang disebut juga filter/kernel merupakan sebuah matriks yang bisa mengonversi dari gambar awal menjadi feature map. Tujuannya adalah untuk mencari atau mendeteksi informasi (fitur) tertentu yang bersifat integral. 
+   Pada tahap ini terjadi proses perkalian pixel pada gambar dengan **featur detector**. Feature detector atau yang disebut juga filter/kernel merupakan sebuah matriks yang bisa mengonversi dari gambar awal menjadi feature map. Tujuannya adalah untuk mencari atau mendeteksi informasi (fitur) tertentu yang bersifat integral. 
    - Hasil Konvolusi adalah **feature map** yang menyimpan informasi penting dari gambar.
    - Aktivasi **ReLU** (Rectified  Linear Unit) diterapkan untuk memutuskan ikatan linearitas yang terjadi dari proses feature detection. Hal ini akan memudahkan mencari nilai optimumnya (baik minimum atau maksimum)
 
@@ -30,8 +33,11 @@ Convolutional Neural Network (CNN) adalah algoritma deep learning yang dirancang
 4. Full Connection
    - Dalam lapisan fully connected, setiap neuron terhubung penuh dengan neuron lain di lapisan berikutnya. Ini memungkinkan integrasi fitur untuk menghasilkan prediksi.
    - **Softmax** digunakan untuk mengubah output menjadi probabilitas, sedangkan evaluasi model dilakukan menggunakan **loss function** seperti cross-entropy.
+
      
 ## Referensi 
 https://www.megabagus.id/deep-learning-convolutional-neural-networks/
+
 https://www.megabagus.id/deep-learning-convolutional-neural-networks-aplikasi/
+
 https://modul-praktikum-ai.vercel.app/Materi/4-convolutional-neural-network
