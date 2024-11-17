@@ -33,24 +33,7 @@ Convolutional Neural Network (CNN) adalah algoritma deep learning yang dirancang
      
 5. Full Connection
    - Dalam lapisan fully connected, setiap neuron terhubung penuh dengan neuron lain di lapisan berikutnya. Ini memungkinkan integrasi fitur untuk menghasilkan prediksi.
-   - **Softmax** digunakan untuk mengubah output menjadi probabilitas, sedangkan evaluasi model dilakukan menggunakan **loss function** seperti cross-entropy.
-
-
-## Penjelasan File CNN.py
-File CNN.py merupakan implementasi dasar Convolutional Neural Network (CNN) untuk klasifikasi gambar biner. Model tersebut menggunakan pustaka Keras dari TensorFlow untuk membangun CNN dan memproses dataset gambar. Model terdiri dari beberapa langkah:
-1. Insialisasi CNN : Membuat model sekuensial di mana lapisan ditambahkan secara bertahap.
-1. Convolution : Mengekstrak fitur penting dari gambar menggunakan filter (kernel) 3x3.
-2. Max Pooling : Mengurangi ukuran data sambil mempertahankan fitur utama.
-3. Menambah Convolutional layer : Tambahan layer konvolusi dan pooling untuk memperdalam jaringan, meningkatkan kemampuan ekstraksi fitur.
-4. Flattening : Mengubah data matriks menjadi vektor 1 kolom untuk input ke neural network.
-5. Full Connection : Membentuk lapisan fully connected dengan neuron, termasuk lapisan output yang menggunakan fungsi aktivasi sigmoid untuk klasifikasi biner.
-
-Model ini dikompilasi menggunakan optimasi Adam untuk mempercepat proses konvergensi, fungsi loss binary_crossentropy untuk menghitung kesalahan, dan metrik accuracy untuk mengevaluasi performa. Dataset untuk pelatihan dan validasi diproses menggunakan ImageDataGenerator, yang melakukan augmentasi data seperti rescale, shear, zoom, dan flip horizontal pada data pelatihan untuk mencegah overfitting. Model dilatih menggunakan metode fit_generator, dengan batch size 32, selama 50 epoch.
-
-## Penjelasan File CNN-CIFAR.py
-
-
-     
+   - **Softmax** digunakan untuk mengubah output menjadi probabilitas, sedangkan evaluasi model dilakukan menggunakan **loss function** seperti cross-entropy.     
 
 ## Keunggulan CNN
 1. Efisiensi Komputasi : Parameter sharing pada layer konvolusi mengurangi jumlah parameter, sehingga lebih efisien dibanding jaringan saraf penuh.
@@ -69,3 +52,7 @@ https://www.megabagus.id/deep-learning-convolutional-neural-networks/
 https://www.megabagus.id/deep-learning-convolutional-neural-networks-aplikasi/
 
 https://modul-praktikum-ai.vercel.app/Materi/4-convolutional-neural-network
+
+
+### Notes
+Penjelasan setiap file code sudah tersedia di dalam file
