@@ -51,6 +51,18 @@ Model ini dikompilasi menggunakan optimasi Adam untuk mempercepat proses konverg
 
 
      
+
+## Keunggulan CNN
+1. Efisiensi Komputasi : Parameter sharing pada layer konvolusi mengurangi jumlah parameter, sehingga lebih efisien dibanding jaringan saraf penuh.
+2. Ketahanan terhadap Variasi : Mampu mengenali pola meskipun objek dalam gambar mengalami perubahan posisi atau orientasi.
+3. Kemampuan Generalisasi : Sangat baik dalam memahami pola kompleks dari dataset visual.
+
+## Tantangan CNN 
+- Membutuhkan dataset besar agar dapat menghasilkan model yang akurat.
+- Proses pelatihan yang memakan waktu dan memerlukan komputasi tinggi, terutama pada dataset besar.
+- Risiko overfitting, yang dapat diatasi dengan teknik seperti augmentasi data atau dropout.
+
+  
 ## Referensi 
 https://www.megabagus.id/deep-learning-convolutional-neural-networks/
 
